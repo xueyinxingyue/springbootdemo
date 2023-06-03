@@ -1,0 +1,9 @@
+#主配置文件  编写通用的配置
+server:
+  servlet:
+    context-path: /demo1
+
+#使用指定环境的配置
+spring:
+  profiles:
+    active: dev
